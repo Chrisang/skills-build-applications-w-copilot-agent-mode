@@ -34,3 +34,7 @@ class LeaderboardViewSet(viewsets.ModelViewSet):
 class WorkoutViewSet(viewsets.ModelViewSet):
     queryset = Workout.objects.all()
     serializer_class = WorkoutSerializer
+
+@api_view(['GET'])
+def fantastic_winner_5gqjwpvj4442vxx4(request):
+    return Response({"message": "This is the fantastic winner endpoint!"})
