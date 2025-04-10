@@ -143,3 +143,6 @@ CORS_ALLOW_HEADERS = [
     'authorization',
     'x-csrftoken',
 ]
+
+# Add the fantastic-winner-5gqjwpvj4442vxx4 API endpoint suffix
+API_ENDPOINT_SUFFIX = "fantastic-winner-5gqjwpvj4442vxx4"
